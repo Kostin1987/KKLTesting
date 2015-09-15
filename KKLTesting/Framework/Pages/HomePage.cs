@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 
 namespace KKLTesting.Framework.Pages
@@ -101,8 +94,8 @@ namespace KKLTesting.Framework.Pages
 
         public void ChooseAnalyzer()
         {
-            //WaitRenderElement(LinkPageAnalyzer);
-            LinkPageAnalyzer.Click();
+            WaitRenderElement(LinkAnalyzer);
+            LinkAnalyzer.Click();
         }
 
 
@@ -114,8 +107,8 @@ namespace KKLTesting.Framework.Pages
 
         public void ChooseReportEditor()
         {
-            //WaitRenderElement(LinkPageReportEditor);
-            LinkPageReportEditor.Click();
+            WaitRenderElement(LinkReport);
+            LinkReport.Click();
         }
 
 

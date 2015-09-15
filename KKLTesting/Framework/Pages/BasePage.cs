@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 
 namespace KKLTesting.Framework.Pages
 {
@@ -38,7 +32,7 @@ namespace KKLTesting.Framework.Pages
             {
                 if (!element.Displayed)
                 {
-                    System.Threading.Thread.Sleep(1000);
+                    System.Threading.Thread.Sleep(5000);
                 }
                 else
                 {

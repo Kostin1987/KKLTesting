@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading;
-using KKLTesting.Framework.Pages;
+﻿using KKLTesting.Framework.Pages;
 using NUnit.Framework;
 using OpenQA.Selenium.Support.PageObjects;
 using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
@@ -17,7 +15,7 @@ namespace KKLTesting.Test
         public void LoginTest()
         {
             _loginPage.Open();
-            _homePage = _loginPage.LoginAs(paxa1887);
+            _homePage = _loginPage.LoginAs(Paxa1887);
             Assert.IsTrue(_homePage.IsLoggedIn());               
             _homePage.Logout();
             Assert.IsTrue(_homePage.IsLoggedOut());           

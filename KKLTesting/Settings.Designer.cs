@@ -37,7 +37,7 @@ namespace KKLTesting {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("paxa1887")]
+        [global::System.Configuration.DefaultSettingValueAttribute("paxa18871")]
         public string user {
             get {
                 return ((string)(this["user"]));
@@ -49,7 +49,7 @@ namespace KKLTesting {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("pavel87")]
+        [global::System.Configuration.DefaultSettingValueAttribute("pavel1987")]
         public string password {
             get {
                 return ((string)(this["password"]));
