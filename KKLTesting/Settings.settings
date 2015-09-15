@@ -3,13 +3,16 @@
   <Profiles />
   <Settings>
     <Setting Name="url" Type="System.String" Scope="User">
-      <Value Profile="(Default)">http://kkl-psu.dbex.org/#/user/login</Value>
+      <Value Profile="(Default)">http://kkl-psu.dbex.org/#/user/TesCase1</Value>
     </Setting>
     <Setting Name="user" Type="System.String" Scope="User">
       <Value Profile="(Default)">paxa1887</Value>
     </Setting>
     <Setting Name="password" Type="System.String" Scope="User">
       <Value Profile="(Default)">pavel87</Value>
+    </Setting>
+    <Setting Name="time" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">100</Value>
     </Setting>
   </Settings>
 </SettingsFile>

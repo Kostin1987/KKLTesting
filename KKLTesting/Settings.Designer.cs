@@ -25,7 +25,7 @@ namespace KKLTesting {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://kkl-psu.dbex.org/#/user/login")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://kkl-psu.dbex.org/#/user/TesCase1")]
         public string url {
             get {
                 return ((string)(this["url"]));
@@ -56,6 +56,18 @@ namespace KKLTesting {
             }
             set {
                 this["password"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public double time {
+            get {
+                return ((double)(this["time"]));
+            }
+            set {
+                this["time"] = value;
             }
         }
     }
