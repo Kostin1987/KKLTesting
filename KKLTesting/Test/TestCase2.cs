@@ -10,7 +10,7 @@ namespace KKLTesting.Test
         private readonly LoginPage _loginPage = PageFactory.InitElements<LoginPage>(GetWebDriver());
         private HomePage _homePage;
 
-        [Test,Timeout(20000)]
+        [Test,Timeout(15000)]
         public void CheckLinks()
         {
             
