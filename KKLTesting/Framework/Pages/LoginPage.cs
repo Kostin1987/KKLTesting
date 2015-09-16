@@ -24,6 +24,7 @@ namespace KKLTesting.Framework.Pages
         {
             Type(FieldUserName, user.Name);
             Type(FieldPassword, user.Password);
+            WaitRenderElement(ButtonLogin);
             ButtonLogin.Click();
             return PageFactory.InitElements<HomePage>(Driver);
         }
